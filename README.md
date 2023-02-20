@@ -64,7 +64,7 @@
         npm run dev
     ```
     - You have to import [`cryptobox.js`](/next-js/cryptobox.js) for load payment gateway
-    - Callback url code given in this path `pages/api/callback.js`
+    - Callback url code given in this path [`pages/api/callback.js`](/next-js/pages/api/callback.js)
     - You have to set callback url in this [Callback URL field](#createPaymentbox2)
  
 
@@ -76,7 +76,7 @@
         cd mern
     ```
 
-    You can see 2 projects in mern directory, `react-js` for front end and `node-js` for backend.
+    You can see 2 projects in mern directory, [`react-js`](/mern/react-js) for front end and [`node-js`](/mern/node-js) for backend.
     let's start with react-js
     ```bash
         cd react-js
@@ -93,7 +93,7 @@
     ```bash
         npm run start
     ```
-    - You have to import `cryptobox.js` for load payment gateway
+    - You have to import [`cryptobox.js`](/mern/react-js/src/cryptobox.js) for load payment gateway
     ###
 
     #### Now open another terminal and go to node-js directory
@@ -112,7 +112,7 @@
     ```bash
         node app.js
     ```
-    - Callback url code given in this path `app.js => app.post('/callback')`
+    - Callback url code given in this path [`app.js => app.post('/callback')`](/mern/node-js/app.js)
     - You have to set callback url in this [Callback URL field](#createPaymentbox2)
     
 <a name="codeIgniter"></a>
@@ -128,8 +128,8 @@
     ```bash
         http://localhost:8080/PATH_TO_PROJECT
     ```
-    - You have to load `cryptobox.js` file for load payment gateway
-    - Callback url code given in this path `application/controllers/Welcome.php`
+    - You have to load [`cryptobox.js`](/codeigniter/assets/cryptobox.js) file for load payment gateway
+    - Callback url code given in this path [`application/controllers/Welcome.php`](/codeigniter/application/controllers/Welcome.php)
     - You have to set callback url in this [Callback URL field](#createPaymentbox2)
 
 <a name="core-php"></a>
@@ -145,8 +145,8 @@
     ```bash
         http://localhost:8080/PATH_TO_PROJECT
     ```
-    - You have to load `cryptobox.js` file for load payment gateway
-    - Callback url code given in this path `callback.php`
+    - You have to load [`cryptobox.js`](/core-php/cryptobox.js) file for load payment gateway
+    - Callback url code given in this path [`callback.php`](/core-php/callback.php)
     - You have to set callback url in this [Callback URL field](#createPaymentbox2)
 
 <a name="ui-view"></a>
