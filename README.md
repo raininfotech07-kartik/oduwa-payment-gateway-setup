@@ -63,7 +63,7 @@
     ```bash
         npm run dev
     ```
-    - You have to import [`cryptobox.js`](/blob/main/next-js/cryptobox.js) for load payment gateway
+    - You have to import [`cryptobox.js`](/next-js/cryptobox.js) for load payment gateway
     - Callback url code given in this path `pages/api/callback.js`
     - You have to set callback url in this [Callback URL field](#createPaymentbox2)
  
