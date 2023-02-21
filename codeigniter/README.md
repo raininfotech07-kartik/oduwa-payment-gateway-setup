@@ -36,29 +36,24 @@
    Clone the project
 
 ```bash
-  git clone https://github.com/ODUWAX/ODUWAX/Oduwacoin-Payment-Gateway-NextJS.git
+  git clone https://github.com/ODUWAX/Oduwacoin-Payment-Gateway-Codeigniter.git
 ```
-<a name="nextjs"></a>
-- ### NextJs
-    Go to the project directory
-
+    
+<a name="codeIgniter"></a>
+- ### CodeIgniter
+    You can run this project using PHP server
+    Copy codeigniter directory and pest it under PHP root directory `e.g PATH_TO/htdocs/`
     ```bash
-        cd next-js
+        cp Oduwacoin-Payment-Gateway-Codeigniter PATH/TO/PHP_SERVER_DIR 
     ```
 
-    Install dependencies
+    open this url in your browser
 
     ```bash
-        npm install
+        http://localhost:8080/PATH_TO_PROJECT
     ```
-
-    Start the server
-
-    ```bash
-        npm run dev
-    ```
-    - You have to import [`cryptobox.js`](/cryptobox.js) for load payment gateway
-    - Callback url code given in this path [`pages/api/callback.js`](/pages/api/callback.js)
+    - You have to load [`cryptobox.js`](/assets/cryptobox.js) file for load payment gateway
+    - Callback url code given in this path [`/application/controllers/Welcome.php`](/application/controllers/Welcome.php)
     - You have to set callback url in this [Callback URL field](#createPaymentbox2)
 
 <a name="ui-view"></a>
