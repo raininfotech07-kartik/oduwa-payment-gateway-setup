@@ -66,7 +66,7 @@ app.post('/callback', (req, res) => {
             }
         }
         // send key and status in response to payment gateway for verification
-        res.status(200).json({ 'status':resStatus,'key':key }) 
+        res.status(200).json({ 'status':resStatus,'hash':key }) 
     }catch(e){
     console.log("Error on hash",e)
     res.status(400).json({ status: false })
